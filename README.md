@@ -7,34 +7,41 @@
 Step 1 - Create trail in management account
 Go to Cloudtrail console > Trails > Create trail
 
-On the Create trail page, enter a name for your trail in Trail name.
+a. On the Create trail page, enter a name for your trail in Trail name.
 
-For Storage location, choose Create new S3 bucket.
+b. For Storage location, choose Create new S3 bucket.
 
-Enter a name for the bucket and prefix  in Trail log bucket and folder.
+c. Enter a name for the bucket and prefix  in Trail log bucket and folder.
 
-If you want to enable SSE-KMS encryption,
+d. If you want to enable SSE-KMS encryption,
 
-For Log file SSE-KMS encryption, select Enabled.
+e. For Log file SSE-KMS encryption, select Enabled.
 
-In Customer managed AWS KMS key, select New AWS KMS key. In AWS KMS Alias, enter an alias
+f. In Customer managed AWS KMS key, select New AWS KMS key. In AWS KMS Alias, enter an alias
 
-In Additional settings [Optional]
+g. In Additional settings [Optional]
 
-For Log file validation,  select Enabled to deliver log digests to your S3 bucket.
+h. For Log file validation,  select Enabled to deliver log digests to your S3 bucket.
 
-For SNS notification delivery, choose Enabled to be notified each time a log is delivered to your bucket. 
-Click Next.
-On the Choose log events,  select Management events. [Enable data events and insights events based on your requirements]
-In Management events, select the API activity you want to log.
-Click Next. On the Review and create page, verify the details and click on Create Trail.
+i. For SNS notification delivery, choose Enabled to be notified each time a log is delivered to your bucket. 
+
+j. Click Next.
+
+k. On the Choose log events,  select Management events. [Enable data events and insights events based on your requirements]
+
+l. In Management events, select the API activity you want to log.
+
+m. Click Next. On the Review and create page, verify the details and click on Create Trail.
+
 
 
 
 
 
 Step 2 - Update bucket policy of destination bucket
+
 Go to Amazon S3 console > Choose the bucket you created above.
+
 Permissions > Bucket Policy > Edit
 
 
