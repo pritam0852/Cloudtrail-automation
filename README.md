@@ -38,6 +38,9 @@ m. Click Next. On the Review and create page, verify the details and click on Cr
 
 
 
+
+
+
 Step 2 - Update bucket policy of destination bucket
 
 Go to Amazon S3 console > Choose the bucket you created above.
