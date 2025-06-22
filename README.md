@@ -3,17 +3,26 @@
 
 # How it works I have guided step by step.
 
+
 Step 1 - Create trail in management account
 Go to Cloudtrail console > Trails > Create trail
 
 On the Create trail page, enter a name for your trail in Trail name.
+
 For Storage location, choose Create new S3 bucket.
+
 Enter a name for the bucket and prefix  in Trail log bucket and folder.
+
 If you want to enable SSE-KMS encryption,
+
 For Log file SSE-KMS encryption, select Enabled.
+
 In Customer managed AWS KMS key, select New AWS KMS key. In AWS KMS Alias, enter an alias
+
 In Additional settings [Optional]
+
 For Log file validation,  select Enabled to deliver log digests to your S3 bucket.
+
 For SNS notification delivery, choose Enabled to be notified each time a log is delivered to your bucket. 
 Click Next.
 On the Choose log events,  select Management events. [Enable data events and insights events based on your requirements]
