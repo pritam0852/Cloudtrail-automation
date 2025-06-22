@@ -5,6 +5,7 @@
 
 Step 1 - Create trail in management account
 Go to Cloudtrail console > Trails > Create trail
+
 On the Create trail page, enter a name for your trail in Trail name.
 For Storage location, choose Create new S3 bucket.
 Enter a name for the bucket and prefix  in Trail log bucket and folder.
