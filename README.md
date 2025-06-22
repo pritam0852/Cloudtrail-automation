@@ -57,15 +57,25 @@ On the  Review page, scroll down to Key Policy. Add the permissions to your key 
 
 
 Step 4 - Create trail in target accounts 
-Similar to step 1, Go to Cloudtrail console > Trails > Create trail           
+
+Similar to step 1, Go to Cloudtrail console > Trails > Create trail 
+
 On the Create trail page, enter a name for your trail in Trail name.
+
 For Storage location, choose  Use existing S3 bucket.
+
 Enter the name of the bucket created in Step 1.
+
  If you want to enable SSE-KMS encryption,
+ 
 For Log file SSE-KMS encryption, select Enabled
+
 In the Customer managed AWS KMS key, select the existing AWS KMS key. In AWS KMS Alias,  select the alias created in step 3, Click Next.
+   
 n the Choose log events,  select Management events.
+
 In Management events, select the API activity you want to log.
+
 Click Next. On the Review and create page, verify the details and click on Create Trail.
 
 
